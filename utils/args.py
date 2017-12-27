@@ -215,7 +215,7 @@ def args():
     parser.add_argument(
         '--pmvfield',
         help='field in moveset box **',
-        default='Quick move: {}, Charge Move: {}')
+        default='**Quick move:** {}, **Charge Move:** {}')
 
 # Raid alarm dts
     parser.add_argument(
@@ -229,7 +229,7 @@ def args():
     parser.add_argument('--rmvtitle',  default=':dancer:')
     parser.add_argument(
         '--rmvfield',
-        default='Quick move: {}, Charge Move: {}')
+        default='**Quick move:** {}, **Charge Move:** {}')
     parser.add_argument('--rivtitle',  default='{}')
     parser.add_argument('--rivfield',  default='{}')
 # Eggs
